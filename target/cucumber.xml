@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.149824">
+<testcase classname="Login feature" name="Login Test" time="0.141753">
+<system-out><![CDATA[Given user hit "www.google.com" and land on login page......................passed
+When user enter "username1" and "password1".................................passed
+And user click on login button..............................................passed
+Then user will land on loginhome page.......................................passed
+And validate below details..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="Login Test 2" time="0.002131">
+<system-out><![CDATA[Given user hit "www.google.com" and land on login page......................passed
+When user enter "username2" and "password2".................................passed
+And user click on login button..............................................passed
+Then user will land on loginhome page.......................................passed
+And validate below details..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="Login Test 3" time="0.004076">
+<system-out><![CDATA[Given user hit "www.google.com" and land on login page......................passed
+When user enter "username3" and "password3".................................passed
+And user click on login button..............................................passed
+Then user will land on loginhome page.......................................passed
+And validate below details..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="Login Test 4" time="0.001864">
+<system-out><![CDATA[Given user hit "www.google.com" and land on login page......................passed
+When user enter "username4" and "password4".................................passed
+And user click on login button..............................................passed
+Then user will land on loginhome page.......................................passed
+And validate below details..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,608 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 568513,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforemethod()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login Test",
+        "description": "",
+        "id": "login-feature;login-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 333895,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 137236962,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user hit \"www.google.com\" and land on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.google.com",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginStepDefinition.user_hit_and_land_on_login_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 391840,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"username1\" and \"password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username1",
+                  "offset": 12
+                },
+                {
+                  "val": "password1",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185182,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190045,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will land on loginhome page",
+            "match": {
+              "location": "LoginStepDefinition.user_will_land_on_loginhome_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2846213,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate below details",
+            "match": {
+              "location": "LoginStepDefinition.validate_below_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EmployeeName",
+                  "EmployeeID"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Vishal",
+                  "444184"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Shraddha",
+                  "518649"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Animesh",
+                  "100100"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Jagadeesh",
+                  "200200"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 224488,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforemethod()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login Test",
+        "description": "",
+        "id": "login-feature;login-test;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 382520,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 286080,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user hit \"www.google.com\" and land on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.google.com",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginStepDefinition.user_hit_and_land_on_login_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 267035,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"username2\" and \"password2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username2",
+                  "offset": 12
+                },
+                {
+                  "val": "password2",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168569,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142635,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will land on loginhome page",
+            "match": {
+              "location": "LoginStepDefinition.user_will_land_on_loginhome_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 659686,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate below details",
+            "match": {
+              "location": "LoginStepDefinition.validate_below_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EmployeeName",
+                  "EmployeeID"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Vishal",
+                  "444184"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Shraddha",
+                  "518649"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Animesh",
+                  "100100"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Jagadeesh",
+                  "200200"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 255689,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforemethod()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login Test",
+        "description": "",
+        "id": "login-feature;login-test;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 249206,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 300668,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user hit \"www.google.com\" and land on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.google.com",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginStepDefinition.user_hit_and_land_on_login_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 301884,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"username3\" and \"password3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username3",
+                  "offset": 12
+                },
+                {
+                  "val": "password3",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142635,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141014,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will land on loginhome page",
+            "match": {
+              "location": "LoginStepDefinition.user_will_land_on_loginhome_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2685344,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate below details",
+            "match": {
+              "location": "LoginStepDefinition.validate_below_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EmployeeName",
+                  "EmployeeID"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Vishal",
+                  "444184"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Shraddha",
+                  "518649"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Animesh",
+                  "100100"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Jagadeesh",
+                  "200200"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 299857,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforemethod()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login Test",
+        "description": "",
+        "id": "login-feature;login-test;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 249611,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 265819,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user hit \"www.google.com\" and land on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.google.com",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginStepDefinition.user_hit_and_land_on_login_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197338,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"username4\" and \"password4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username4",
+                  "offset": 12
+                },
+                {
+                  "val": "password4",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137367,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130478,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will land on loginhome page",
+            "match": {
+              "location": "LoginStepDefinition.user_will_land_on_loginhome_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 583911,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate below details",
+            "match": {
+              "location": "LoginStepDefinition.validate_below_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EmployeeName",
+                  "EmployeeID"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Vishal",
+                  "444184"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Shraddha",
+                  "518649"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Animesh",
+                  "100100"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Jagadeesh",
+                  "200200"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Login.Feature"
+  }
+]
